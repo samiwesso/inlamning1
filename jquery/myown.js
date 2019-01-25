@@ -99,6 +99,9 @@ $(function () {
                 $('#textarea_empty').text('').css('color', 'blue');
                 $('#textarea').css('border', '1px solid blue');
             }
+            if(checkBox.checked == true){
+                $('#mycheck').text("it is okay").css('color', 'blue');
+            }
 
             if (Name !== "" 
             && (formValid)
